@@ -20,7 +20,8 @@ This project displays the first 50 Airbnb listings from a JSON dataset using Jav
 
 ## Live Demo
 
-
+- https://harini0-0.github.io/assignment-2-JS-Bootstrap/
 
 ## GitHub Repository
 
+- https://github.com/harini0-0/assignment-2-JS-Bootstrap
