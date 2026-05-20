@@ -17,6 +17,26 @@ function MainModule(listingsID = "#listings") {
       .join("");
   }
 
+  async function loadData() {
+
+  try {
+
+    const res = await fetch("./airbnb_sf_listings_500.json");
+
+    const listings = await res.json();
+
+    allListings = listings.slice(0, 50);
+
+    redraw(allListings);
+
+  } catch (error) {
+
+    console.error("Error loading data:", error);
+
+  }
+
+}
+
   function getListingCode(listing) {
     return `
       <div class="col-md-6 col-lg-4">
