@@ -1,0 +1,30 @@
+body {
+  background-color: #f7f7f7;
+}
+
+.listing-card {
+  transition: transform 0.2s ease;
+  border: none;
+}
+
+.listing-card:hover {
+  transform: scale(1.02);
+}
+
+.listing-image {
+  height: 220px;
+  object-fit: cover;
+}
+
+.host-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.host-image {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}
